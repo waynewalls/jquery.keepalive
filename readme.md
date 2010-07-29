@@ -5,22 +5,22 @@ Date: 28 July 2010
 License: MIT License or GNU General Public License (GPL) Version 2  
 Example at: [http://waynewalls.com/keepalive/](http://waynewalls.com/keepalive/)  
 
-##BACKGROUND.##
+## BACKGROUND ##
 
 This plugin sends ajax requests to the server at configurable intervals to keep
 a PHP session from expiring.
 
-##LIMITATIONS.##
+## LIMITATIONS ##
 
 none.
 
 
-##keepalive DEPENDENCIES:##
+## keepalive DEPENDENCIES: ##
 
 Requires jQuery v1.4;  there are no other dependencies.
 
 
-##keepalive USAGE:##
+## keepalive USAGE: ##
 
 jQuery.keepalive is started automatically when the plug-in is included a page.
 
@@ -36,7 +36,7 @@ where config is an optional object containing keepalive options.
 the status display is appended to the body element
 
 
-##keepalive OPTIONS (type) [ default value ]:##
+## keepalive OPTIONS (type) [ default value ]: ##
 
 `$.keepalive.options.url (string) [ "php/keepalive.php" ]`  
 The URL to assign to the $.ajax() URL property
@@ -58,7 +58,7 @@ error.
 A function that will be called after each successful keepalive $.ajax() request.
 
 
-##keepalive PUBLIC METHODS:##
+## keepalive PUBLIC METHODS: ##
 
 `$.keepalive.configure( config )`  
 Sets keepalive options where config is an object containing new options that
