@@ -237,7 +237,7 @@ session_start();
             // load the jquery.hoverIntent and jquery.cookie plugin
         </script>
 
-        <script type="text/javascript" src="jquery.keepalive.js">
+        <script type="text/javascript" src="jquery.keepalive.min.js">
             // load the jquery.keepalive plugin
         </script>
 
