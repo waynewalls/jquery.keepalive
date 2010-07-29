@@ -26,7 +26,7 @@ session_start();
 
             body { font-size:85%; font-family:arial, helvetica, sans-serif; line-height:1.35em; }
 
-            pre { font-size:108%; }
+            pre { font-size:108%; margin-bottom:2px;}
 
             .bold { font-weight:bold; font-size:125%; color:#009; }
 
@@ -41,7 +41,7 @@ session_start();
             button { margin:1em 0 0 0.5em; }
 
             .optionsPrompt { font-weight:bold; color:#009; margin:2em 0 0 0; }
-            .options { margin:2em 0 0 1em; line-height:0.75em; }
+            .options { margin:2em 0 0 1em; }
 
             #keepAliveStatus { font-size:70%; color:#009; margin-top:25px; line-height:normal; }
             #displayRelay { position:absolute; font-size:70%; color:#009; line-height:normal; }
