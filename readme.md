@@ -3,7 +3,7 @@
 Version: 0.9
 Date: 28 July 2010
 License: MIT License or GNU General Public License (GPL) Version 2
-Example at: [ http://waynewalls.com/keepalive/ ]
+Example at: [http://waynewalls.com/keepalive/](http://waynewalls.com/keepalive/)
 
 ##BACKGROUND.##
 
