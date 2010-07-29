@@ -1,4 +1,4 @@
-﻿# jQuery keepalive PLUGIN #
+﻿# jQuery keepalive Plugin #
 
 Version: 0.9  
 Date: 28 July 2010  
