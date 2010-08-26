@@ -76,8 +76,8 @@ session_start();
 
             <p>
 
-                Version: 0.9<br>
-                Date: 28 July 2010<br>
+                Version: 1.0<br>
+                Date: 26 August 2010<br>
                 License: MIT License or GNU General Public License (GPL) Version 2<br>
                 Git repository: [ <a href="http://github.com/waynewalls/jquery.keepalive">http://github.com/waynewalls/jquery.keepalive</a> ]<br><br>
 

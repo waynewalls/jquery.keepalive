@@ -2,9 +2,9 @@
  *  jQuery.keepalive plugin -- keep a PHP session alive
  *  Copyright (c) 2010 Wayne Walls - wfwalls(at)gmail(dot)com
  *  License: MIT License or GNU General Public License (GPL) Version 2
- *  Date: 28 July 2010
+ *  Date: 26 August 2010
  *  @author Wayne Walls
- *  @version 0.9
+ *  @version 1.0
  *
  */
 
