@@ -117,7 +117,7 @@
                     if (kaShowingData) {
 
                         // update the keep alive status display
-                        jQuery("#keepAliveStatus").html(kaGetData());
+                        jQuery("#ww-keepalive-status").html(kaGetData());
 
                     }
 
@@ -143,7 +143,7 @@
                     if (kaShowingData) {
 
                         // update the keep alive status display
-                        jQuery("#keepAliveStatus").html(kaGetData());
+                        jQuery("#ww-keepalive-status").html(kaGetData());
 
                     }
 
@@ -222,7 +222,7 @@
             if (kaShowingData) {
 
                 // update the keep alive status display
-                jQuery("#keepAliveStatus").html(kaGetData());
+                jQuery("#ww-keepalive-status").html(kaGetData());
 
             }
 
@@ -249,7 +249,7 @@
             if (kaShowingData) {
 
                 // update the keep alive status display
-                jQuery("#keepAliveStatus").html(kaGetData());
+                jQuery("#ww-keepalive-status").html(kaGetData());
 
             }
 
@@ -269,7 +269,7 @@
             if (kaShowingData) {
 
                 // update the keep alive status display
-                jQuery("#keepAliveStatus").html(kaGetData());
+                jQuery("#ww-keepalive-status").html(kaGetData());
 
             }
 
@@ -283,14 +283,14 @@
 
             if (kaShowingData) {
 
-                $("#keepAliveStatus").remove();
+                $("#ww-keepalive-status").remove();
 
                 kaShowingData = false;
             }
             else {
 
                 $("<div />", {
-                    id   : "keepAliveStatus",
+                    id   : "ww-keepalive-status",
                     html : kaGetData()
                 }).appendTo(document.body);
 

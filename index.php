@@ -55,7 +55,7 @@ session_start();
 
             .bold { font-weight:bold; color:#000; }
 
-            #keepAliveStatus { font-size:70%; color:#000; margin-top:25px; line-height:normal; }
+            #ww-keepalive-status { font-size:70%; color:#000; margin-top:25px; line-height:normal; }
             #displayRelay { position:absolute; font-size:70%; color:#009; line-height:normal; }
 
         </style>
@@ -245,7 +245,7 @@ session_start();
             // load the jquery.hoverIntent and jquery.cookie plugin
         </script>
 
-        <script type="text/javascript" src="jquery.keepalive.min.js">
+        <script type="text/javascript" src="jquery.keepalive.js">
             // load the jquery.keepalive plugin
         </script>
 
@@ -285,7 +285,7 @@ session_start();
 
                         $("#toggle").bind("click", function() {
 
-                            var displayActive = ($("#keepAliveStatus").length == 1),
+                            var displayActive = ($("#ww-keepalive-status").length == 1),
                                 button = $(this);
 
                             $.keepalive.toggleDisplay();
@@ -300,7 +300,7 @@ session_start();
                                 $("<div />", {
                                     id : "displayRelay",
                                     css: { top:button.offset().top, left:button.offset().left + button.width() + 25 },
-                                    html: $("#keepAliveStatus").html()
+                                    html: $("#ww-keepalive-status").html()
                                 }).appendTo(document.body);
 
                             }
@@ -309,7 +309,7 @@ session_start();
 
                         $("#stop").bind("click", function() {
 
-                            var displayActive = ($("#keepAliveStatus").length == 1);
+                            var displayActive = ($("#ww-keepalive-status").length == 1);
 
                             $.keepalive.stop();
 
@@ -319,7 +319,7 @@ session_start();
 
                             if (displayActive) {
 
-                                $("#displayRelay").html($("#keepAliveStatus").html());
+                                $("#displayRelay").html($("#ww-keepalive-status").html());
 
                             }
 
@@ -327,7 +327,7 @@ session_start();
 
                         $("#start").bind("click", function() {
 
-                            var displayActive = ($("#keepAliveStatus").length == 1);
+                            var displayActive = ($("#ww-keepalive-status").length == 1);
 
                             $.keepalive.start();
 
@@ -337,7 +337,7 @@ session_start();
 
                             if (displayActive) {
 
-                                $("#displayRelay").html($("#keepAliveStatus").html());
+                                $("#displayRelay").html($("#ww-keepalive-status").html());
 
                             }
 
@@ -345,13 +345,13 @@ session_start();
 
                         $("#interval5").bind("click", function() {
 
-                            var displayActive = ($("#keepAliveStatus").length == 1);
+                            var displayActive = ($("#ww-keepalive-status").length == 1);
 
                             $.keepalive.configure( {interval : 5000 } );
 
                             if (displayActive) {
 
-                                $("#displayRelay").html($("#keepAliveStatus").html());
+                                $("#displayRelay").html($("#ww-keepalive-status").html());
 
                             }
 
@@ -359,13 +359,13 @@ session_start();
 
                         $("#interval10").bind("click", function() {
 
-                            var displayActive = ($("#keepAliveStatus").length == 1);
+                            var displayActive = ($("#ww-keepalive-status").length == 1);
 
                             $.keepalive.configure( {interval : 10000 } );
 
                             if (displayActive) {
 
-                                $("#displayRelay").html($("#keepAliveStatus").html());
+                                $("#displayRelay").html($("#ww-keepalive-status").html());
 
                             }
 
@@ -383,7 +383,7 @@ session_start();
 
                         successCallback : function() {
 
-                            var kaStatus = $("#keepAliveStatus"),
+                            var kaStatus = $("#ww-keepalive-status"),
                                 displayActive = (kaStatus.length == 1);
 
                             if (displayActive) {
@@ -395,7 +395,7 @@ session_start();
 
                         errorCallback : function() {
 
-                            var kaStatus = $("#keepAliveStatus"),
+                            var kaStatus = $("#ww-keepalive-status"),
                                 displayActive = (kaStatus.length == 1);
 
                             if (displayActive) {
